@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123C8E1A25C336EB001CAF77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E1925C336EB001CAF77 /* AppDelegate.swift */; };
+		123C8E1C25C336EB001CAF77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E1B25C336EB001CAF77 /* SceneDelegate.swift */; };
+		123C8E1E25C336EB001CAF77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E1D25C336EB001CAF77 /* HomeViewController.swift */; };
+		123C8E2125C336EB001CAF77 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C8E1F25C336EB001CAF77 /* Home.storyboard */; };
+		123C8E2425C336EB001CAF77 /* AmazonAwsCase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E2225C336EB001CAF77 /* AmazonAwsCase.xcdatamodeld */; };
+		123C8E2625C336ED001CAF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123C8E2525C336ED001CAF77 /* Assets.xcassets */; };
+		123C8E2925C336ED001CAF77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C8E2725C336ED001CAF77 /* LaunchScreen.storyboard */; };
+		123C8E3425C336ED001CAF77 /* AmazonAwsCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E3325C336ED001CAF77 /* AmazonAwsCaseTests.swift */; };
+		123C8E4525C33757001CAF77 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E3F25C33757001CAF77 /* HomePresenter.swift */; };
+		123C8E4625C33757001CAF77 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E4025C33757001CAF77 /* HomeWorker.swift */; };
+		123C8E4725C33757001CAF77 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E4125C33757001CAF77 /* HomeRouter.swift */; };
+		123C8E4825C33757001CAF77 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E4225C33757001CAF77 /* HomeModels.swift */; };
+		123C8E4A25C33757001CAF77 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C8E4425C33757001CAF77 /* HomeInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		123C8E3025C336ED001CAF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 123C8E0E25C336EB001CAF77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 123C8E1525C336EB001CAF77;
+			remoteInfo = AmazonAwsCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123C8E1625C336EB001CAF77 /* AmazonAwsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonAwsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		123C8E1925C336EB001CAF77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		123C8E1B25C336EB001CAF77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		123C8E1D25C336EB001CAF77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		123C8E2025C336EB001CAF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		123C8E2325C336EB001CAF77 /* AmazonAwsCase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmazonAwsCase.xcdatamodel; sourceTree = "<group>"; };
+		123C8E2525C336ED001CAF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		123C8E2825C336ED001CAF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		123C8E2A25C336ED001CAF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		123C8E2F25C336ED001CAF77 /* AmazonAwsCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonAwsCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		123C8E3325C336ED001CAF77 /* AmazonAwsCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonAwsCaseTests.swift; sourceTree = "<group>"; };
+		123C8E3525C336ED001CAF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		123C8E3F25C33757001CAF77 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		123C8E4025C33757001CAF77 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		123C8E4125C33757001CAF77 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		123C8E4225C33757001CAF77 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		123C8E4425C33757001CAF77 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123C8E1325C336EB001CAF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123C8E2C25C336ED001CAF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123C8E0D25C336EB001CAF77 = {
+			isa = PBXGroup;
+			children = (
+				123C8E1825C336EB001CAF77 /* AmazonAwsCase */,
+				123C8E3225C336ED001CAF77 /* AmazonAwsCaseTests */,
+				123C8E1725C336EB001CAF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123C8E1725C336EB001CAF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				123C8E1625C336EB001CAF77 /* AmazonAwsCase.app */,
+				123C8E2F25C336ED001CAF77 /* AmazonAwsCaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		123C8E1825C336EB001CAF77 /* AmazonAwsCase */ = {
+			isa = PBXGroup;
+			children = (
+				123C8E3E25C33718001CAF77 /* Home */,
+				123C8E1925C336EB001CAF77 /* AppDelegate.swift */,
+				123C8E1B25C336EB001CAF77 /* SceneDelegate.swift */,
+				123C8E2525C336ED001CAF77 /* Assets.xcassets */,
+				123C8E2725C336ED001CAF77 /* LaunchScreen.storyboard */,
+				123C8E2A25C336ED001CAF77 /* Info.plist */,
+				123C8E2225C336EB001CAF77 /* AmazonAwsCase.xcdatamodeld */,
+			);
+			path = AmazonAwsCase;
+			sourceTree = "<group>";
+		};
+		123C8E3225C336ED001CAF77 /* AmazonAwsCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				123C8E3325C336ED001CAF77 /* AmazonAwsCaseTests.swift */,
+				123C8E3525C336ED001CAF77 /* Info.plist */,
+			);
+			path = AmazonAwsCaseTests;
+			sourceTree = "<group>";
+		};
+		123C8E3E25C33718001CAF77 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				123C8E1D25C336EB001CAF77 /* HomeViewController.swift */,
+				123C8E3F25C33757001CAF77 /* HomePresenter.swift */,
+				123C8E4025C33757001CAF77 /* HomeWorker.swift */,
+				123C8E4125C33757001CAF77 /* HomeRouter.swift */,
+				123C8E4225C33757001CAF77 /* HomeModels.swift */,
+				123C8E4425C33757001CAF77 /* HomeInteractor.swift */,
+				123C8E1F25C336EB001CAF77 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		123C8E1525C336EB001CAF77 /* AmazonAwsCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123C8E3825C336ED001CAF77 /* Build configuration list for PBXNativeTarget "AmazonAwsCase" */;
+			buildPhases = (
+				123C8E1225C336EB001CAF77 /* Sources */,
+				123C8E1325C336EB001CAF77 /* Frameworks */,
+				123C8E1425C336EB001CAF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonAwsCase;
+			productName = AmazonAwsCase;
+			productReference = 123C8E1625C336EB001CAF77 /* AmazonAwsCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		123C8E2E25C336ED001CAF77 /* AmazonAwsCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123C8E3B25C336ED001CAF77 /* Build configuration list for PBXNativeTarget "AmazonAwsCaseTests" */;
+			buildPhases = (
+				123C8E2B25C336ED001CAF77 /* Sources */,
+				123C8E2C25C336ED001CAF77 /* Frameworks */,
+				123C8E2D25C336ED001CAF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				123C8E3125C336ED001CAF77 /* PBXTargetDependency */,
+			);
+			name = AmazonAwsCaseTests;
+			productName = AmazonAwsCaseTests;
+			productReference = 123C8E2F25C336ED001CAF77 /* AmazonAwsCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123C8E0E25C336EB001CAF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = HalitG;
+				TargetAttributes = {
+					123C8E1525C336EB001CAF77 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					123C8E2E25C336ED001CAF77 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 123C8E1525C336EB001CAF77;
+					};
+				};
+			};
+			buildConfigurationList = 123C8E1125C336EB001CAF77 /* Build configuration list for PBXProject "AmazonAwsCase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123C8E0D25C336EB001CAF77;
+			productRefGroup = 123C8E1725C336EB001CAF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				123C8E1525C336EB001CAF77 /* AmazonAwsCase */,
+				123C8E2E25C336ED001CAF77 /* AmazonAwsCaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123C8E1425C336EB001CAF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123C8E2925C336ED001CAF77 /* LaunchScreen.storyboard in Resources */,
+				123C8E2625C336ED001CAF77 /* Assets.xcassets in Resources */,
+				123C8E2125C336EB001CAF77 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123C8E2D25C336ED001CAF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123C8E1225C336EB001CAF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123C8E4825C33757001CAF77 /* HomeModels.swift in Sources */,
+				123C8E1E25C336EB001CAF77 /* HomeViewController.swift in Sources */,
+				123C8E1A25C336EB001CAF77 /* AppDelegate.swift in Sources */,
+				123C8E4A25C33757001CAF77 /* HomeInteractor.swift in Sources */,
+				123C8E4725C33757001CAF77 /* HomeRouter.swift in Sources */,
+				123C8E1C25C336EB001CAF77 /* SceneDelegate.swift in Sources */,
+				123C8E4525C33757001CAF77 /* HomePresenter.swift in Sources */,
+				123C8E4625C33757001CAF77 /* HomeWorker.swift in Sources */,
+				123C8E2425C336EB001CAF77 /* AmazonAwsCase.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123C8E2B25C336ED001CAF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123C8E3425C336ED001CAF77 /* AmazonAwsCaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		123C8E3125C336ED001CAF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 123C8E1525C336EB001CAF77 /* AmazonAwsCase */;
+			targetProxy = 123C8E3025C336ED001CAF77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		123C8E1F25C336EB001CAF77 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C8E2025C336EB001CAF77 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		123C8E2725C336ED001CAF77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C8E2825C336ED001CAF77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		123C8E3625C336ED001CAF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		123C8E3725C336ED001CAF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		123C8E3925C336ED001CAF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonAwsCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = halitgumus.com.AmazonAwsCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		123C8E3A25C336ED001CAF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonAwsCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = halitgumus.com.AmazonAwsCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		123C8E3C25C336ED001CAF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonAwsCaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = halitgumus.com.AmazonAwsCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonAwsCase.app/AmazonAwsCase";
+			};
+			name = Debug;
+		};
+		123C8E3D25C336ED001CAF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonAwsCaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = halitgumus.com.AmazonAwsCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonAwsCase.app/AmazonAwsCase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123C8E1125C336EB001CAF77 /* Build configuration list for PBXProject "AmazonAwsCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C8E3625C336ED001CAF77 /* Debug */,
+				123C8E3725C336ED001CAF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123C8E3825C336ED001CAF77 /* Build configuration list for PBXNativeTarget "AmazonAwsCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C8E3925C336ED001CAF77 /* Debug */,
+				123C8E3A25C336ED001CAF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123C8E3B25C336ED001CAF77 /* Build configuration list for PBXNativeTarget "AmazonAwsCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C8E3C25C336ED001CAF77 /* Debug */,
+				123C8E3D25C336ED001CAF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		123C8E2225C336EB001CAF77 /* AmazonAwsCase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				123C8E2325C336EB001CAF77 /* AmazonAwsCase.xcdatamodel */,
+			);
+			currentVersion = 123C8E2325C336EB001CAF77 /* AmazonAwsCase.xcdatamodel */;
+			path = AmazonAwsCase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 123C8E0E25C336EB001CAF77 /* Project object */;
+}
